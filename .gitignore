@@ -1,0 +1,59 @@
+# Python virtualenv
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files
+*.npz
+*.npy
+*.joblib
+*.pth
+*.h5
+*.pkl
+
+# YOLO model weights
+*.pt
+
+# Compressed archives
+*.zip
+*.tar.gz
+
+# Outputs and runs (generated results)
+outputs/
+runs/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug images
+debug_*.png
+.claude/
+
+# Generated outputs (heatmaps, t-SNE plots, loss curves, etc.)
+heatmap_vis/
+model_space_vis_tsne*/
+modelspace_loss_like_figures/
+loss_like_figures*/
+
+# YOLO training outputs
+yolo_baseline/yolo_gpr/
+yolo_baseline/yolo_tsne3d/
+
+# Hog+SVM outputs
+hog_svm_baseline_binary/
+hog_feature_space_tsne3d/
+
+# Other generated result directories (keep only code + input data)
+theta_vectors_2desn*/
+window_dataset_center2_w128_s32/
+window_dataset_overlap40_w128_s32/
+*.csv

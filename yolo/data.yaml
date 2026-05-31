@@ -1,0 +1,9 @@
+path: C:/temporary internet files/GPR_ModelSpace_New/gpr_yolo_dataset
+
+train: C:/temporary internet files/GPR_ModelSpace_New/gpr_yolo_dataset/images/train
+val: C:/temporary internet files/GPR_ModelSpace_New/gpr_yolo_dataset/images/val
+test: C:/temporary internet files/GPR_ModelSpace_New/gpr_yolo_dataset/images/test
+
+names:
+  0: cavity
+  1: utility
