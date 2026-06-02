@@ -65,3 +65,10 @@ GPR Images → Sliding Windows → ResNet18 Features → PCA → Dynamic Model (
 - scikit-learn
 - NumPy, OpenCV
 - Ultralytics YOLO (for YOLO baselines)
+
+## Contributors
+
+| Contributor | Role |
+|-------------|------|
+| [Claude Opus 4.7](https://claude.ai) | README, git setup, moral support |
+| [@chang-siqian](https://github.com/chang-siqian) | All the actual code, experiments, and suffering |
